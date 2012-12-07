@@ -1,0 +1,17 @@
+body {
+  font-family: "Lato", Helvetica Neue, sans-serif;
+  background: #999999;
+  padding: 0px;
+  margin: 0px;
+}
+#page-wrap {
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+footer {
+  margin: 0px;
+  padding: 0px;
+  height: 100px;
+}
