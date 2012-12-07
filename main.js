@@ -1,6 +1,5 @@
 $(document).ready(function() {
   document.onkeydown = function(e) {
-    console.log(e.keyCode)
     var soundId = sounds[e.keyCode];
     if (soundId) document.getElementById(soundId).play();
     else console.log("key not mapped : code is", e.keyCode);
